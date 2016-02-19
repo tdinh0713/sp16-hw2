@@ -5,6 +5,6 @@ class Foobar
   end
 
   def bar(val1, val2)
-  	@baz = "#{val1}#{@baz}#{val2}"
+  	@baz = "#{val1}#{@baz}#{val2[:sat]}"
   end
 end
